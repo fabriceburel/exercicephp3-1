@@ -1,6 +1,7 @@
 <?php
-
-for ($number = 0;$number<=10;$number++){
+$number = 0;
+while($number <= 10){
   echo $number . ' ';
-}
+  $number++;
+  }
 ?>
